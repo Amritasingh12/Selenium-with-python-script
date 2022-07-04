@@ -8,6 +8,8 @@ count = 1
 for title in titles:
     d = {}
     d['Title Number'] = f'Title {count}'
+    d['Title Number'] = f'Title {count}'
+    d['Title Number'] = f'Title {count}'
     d['Title Name'] = title.text
     count += 1
     titles_list.append(d)
